@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Pricing Card Design</title>
+  <link rel="stylesheet" href="./style.css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
+<link rel="preconnect" href="https://fonts.gstatic.com" />
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet" />
+
+<title>Pricing component</title>
+</head>
+
+<body>
+  <button class="buttons" onclick="window.location.href='https://focusappss.com/Data';">Stats</button>
+  <header>
+    <h1>Our Pricing</h1>
+    <div class="toggle">
+      <label>Annually </label>
+      <div class="toggle-btn">
+        <input type="checkbox" class="checkbox" id="checkbox" />
+        <label class="sub" id="sub" for="checkbox">
+          <div class="circle"></div>
+        </label>
+      </div>
+      <label> Monthly</label>
+    </div>
+  </header>
+  <div class="cards">
+    <div class="card shadow">
+      <ul>
+        <li class="pack">Basic</li>
+        <li id="basic" class="price bottom-bar">Free</li>
+        <li class="bottom-bar">1 Hour AI Chatbot Support</li>
+        <li class="bottom-bar">Interest Calculator & Budget Planner</li>
+        <li class="bottom-bar">With Ads</li>
+        <li><button class="btn">Learn More</button></li>
+      </ul>
+    </div>
+    <div class="card shadow">
+      <ul>
+        <li class="pack">Premium</li>
+        <li id="master" class="price bottom-bar">&dollar;12.99</li>
+        <li class="bottom-bar">24 / 7 AI Chatbot Support</li>
+        <li class="bottom-bar">Interest Calculator & Budget Planner</li>
+        <li class="bottom-bar">No Ads</li>
+        <li><button class="btn">Learn More</button></li>
+      </ul>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
